@@ -40,7 +40,7 @@ hist(steps_per_day$sumsteps
      , breaks = 20)
 ```
   
-... and calculate the mean and median of total number of steps taken per day
+... and calculate the mean and median of total number of steps taken per day.
 ```{r}
 activity_no_rm.mean <- mean(steps_per_day$sumsteps)
 activity_no_rm.median <- median(steps_per_day$sumsteps)

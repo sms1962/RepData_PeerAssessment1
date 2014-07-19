@@ -56,7 +56,7 @@ hist(steps_per_day$sumsteps
 
 ![plot of chunk unnamed-chunk-4](./PA1_template_files/figure-html/unnamed-chunk-4.png) 
   
-... and calculate the mean and median of total number of steps taken per day
+... and calculate the mean and median of total number of steps taken per day.
 
 ```r
 activity_no_rm.mean <- mean(steps_per_day$sumsteps)
